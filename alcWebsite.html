@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <link rel="stylesheet" href="alcStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Alcohol Delivery</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <span>
+                    <a href="alcWebsite.html">
+                       Alcohol Delivery
+                    </a>
+                </span>
+            </div>
+            <div class="search">
+                <input type="text" 
+                       placeholder="Search products...">
+                <button>Search</button>
+            </div>
+            <div class="loginCart">
+                <table>
+                    <tr>
+                        <td><button id="login">  <a href="login.html">Login </a> </button></td>
+                        <td><button id="shoppingCart" style="font-size:24px"><a href="shoppingCart.html"><i class="fa fa-shopping-cart"></i> </a></button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <div class="navigation">
+       
+        <nav>
+            <ul>
+                <li>
+                    <a href="beer.html">
+                        Beer
+                    </a>
+                </li>
+                <li>
+                    <a href="wine.html">
+                        Wine
+                    </a>
+                </li>
+                <li>
+                    <a href="#spirits">
+                        Spirits
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div id = specialBanner>
+        <h1 >Specials</h1>
+        </div>
+        <section>
+            <h2 id="beer">Beer</h2>
+            <div class="category">
+                <div class="product">
+                    <div class="image-placeholder 
+                                image-placeholder1">
+                        <img src=
+                                "https://images.albertsons-media.com/is/image/ABS/960085410-C1N1?$ng-ecom-pdp-mobile$&defaultImage=Not_Available"
+                                alt="Heineken">
+                    </div>
+                    <h3>Heineken</h3>
+                    <p class="price">$12.99/6pk</p>
+                    <div class="qyt">
+                        <label for="quantity_beer1">
+                            Quantity:
+                        </label>
+                        <input type="number" 
+                               id="quantity_beer1" 
+                               value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button class="add-to-cart" data-name="Heineken" data-price="12.99" data-id="beer1">Add to Cart</button>
+                        <button class="buy-now" data-name="Heineken" data-price="12.99" data-id="beer1">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="image-placeholder 
+                                image-placeholder2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9C1-_o8BzdziEJKQws3E6HKa0CwrnrvvgOw&s"
+                            alt="Bud Light">
+                    </div>
+                    <h3>Bud Light</h3>
+                    <p class="price">$6.99/6pk</p>
+                    <div class="qyt">
+                        <label for="quantity_beer2">
+                            Quantity:
+                        </label>
+                        <input type="number" 
+                               id="quantity_beer2" 
+                               value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button class="add-to-cart" data-name="Bud Light" data-price="6.99" data-id="beer2">Add to Cart</button>
+                        <button class="buy-now" data-name="Heineken" data-price="6.99" data-id="beer2">Buy Now</button>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <h2 id="wine">Wine</h2>
+            <div class="category">
+                <div class="product">
+                    <div class="image-placeholder 
+                            image-placeholder3">
+                        <img src= "https://i5.walmartimages.com/seo/Apothic-Red-Blend-Wine-California-750ml-Glass-Bottle-13-5-ABV_1420908f-13d1-4e19-ab6c-c08329415f97.77a3c70670c9971d677945869ab9cef9.jpeg"                           alt="Apothic Red">
+                    </div>
+                    <h3>Apothic Red</h3>
+                    <p class="price">$13.49/750ml</p>
+                    <div class="qyt">
+                        <label for="quantity_wine1">
+                        Quantity:
+                        </label>
+                            <input type="number" 
+                                id="quantity_wine1" 
+                                value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button class="add-to-cart" data-name="Apothic Red" data-price="13.49" data-id="wine1">Add to Cart</button>
+                        <button class="buy-now" data-name="Apothic Red" data-price="13.49" data-id="wine1">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                <div class="image-placeholder 
+                            image-placeholder4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqjsC9_oxFLBd7x43oK9GdNNSGmgzliX-Ylw&s"                            alt="Barefoot White">
+                </div>
+                <h3>Barefoot White</h3>
+                <p class="price">$6.99/750ml</p>
+                <div class="qyt">
+                    <label for="quantity_wine2">
+                        Quantity:
+                    </label>
+                    <input type="number" 
+                           id="quantity_wine2" 
+                           value="1">
+                </div>
+                <div class="productbtns">
+                    <button class="add-to-cart" data-name="Barefoot White" data-price="6.99" data-id="wine2">Add to Cart</button>
+                    <button class="buy-now" data-name="Barefoot White" data-price="6.99" data-id="wine2">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section>
+            <h2 id="spirits">Spirits</h2>
+            <div class="category">
+                <div class="product">
+                    <div class="image-placeholder image-placeholder5">
+                        <img src="https://cwspirits.com/cdn/shop/files/jack-daniel-s-whiskey-750-ml-country-wine-and-spirits.png?v=1718355493"                            alt="Jack Daniels">
+                    </div>
+                    <h3>Jack Daniel's Whiskey</h3>
+                    <p class="price">$16.99/750ml</p>
+                    <div class="qyt">
+                        <label for="quantity_whiskey1">
+                            Quantity:
+                        </label>
+                        <input type="number" 
+                               id="quantity_whiskey1"
+                               value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button class="add-to-cart" data-name="Jack Daniels" data-price="16.99" data-id="whiskey1">Add to Cart</button>
+                        <button class="buy-now" data-name="Jack Daniels" data-price="16.99" data-id="whiskey1">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="image-placeholder 
+                                image-placeholder6">
+                        <img src="data:image/jpeg;base64,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"                            alt="Stoli Vodka">
+                    </div>
+                    <h3>Stoli Vodka</h3>
+                    <p class="price">$15.99/750ml</p>
+                    <div class="qyt">
+                        <label for="quantity_vodka1">
+                            Quantity:
+                        </label>
+                        <input type="number" 
+                               id="quantity_vodka1" 
+                               value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button class="add-to-cart" data-name="Stoli Vodka" data-price="15.99" data-id="vodka1">Add to Cart</button>
+                        <button class="buy-now" data-name="Stoli Vodka" data-price="15.99" data-id="vodka1">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="image-placeholder 
+                                image-placeholder7">
+                        <img src=
+data:image/jpeg;base64,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                            alt="1800 Tequila">
+                    </div>
+                    <h3>1800 Tequilla</h3>
+                    <p class="price">$18.99/750ml</p>
+                    <div class="qyt">
+                        <label for="quantity_tequila1">
+                            Quantity:
+                        </label>
+                        <input type="number" 
+                               id="quantity_tequila1" 
+                               value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button class="add-to-cart" data-name="1800 Tequilla" data-price="18.99" data-id="tequila1">Add to Cart</button>
+                        <button class="buy-now" data-name="1800 Tequilla" data-price="18.99" data-id="tequila1">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Alcohol Delivery.
+            All rights reserved.
+        </p>
+    </footer>
+
+<!--JavaScript-->
+    <script src="alcoholJS.js"></script>
+</body>
+
+</html>
